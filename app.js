@@ -1,4 +1,3 @@
-
 const som = document.querySelector('#som')
 const usd = document.querySelector('#usd')
 const eur = document.querySelector('#eur')
@@ -30,3 +29,5 @@ const convert = (elem, target, isTrue) => {
 convert(som, usd, eur, true)
 convert(usd, som, eur, false)
 convert(eur, som, usd, false)
+
+
